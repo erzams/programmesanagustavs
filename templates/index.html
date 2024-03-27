@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Index lapa</title>
+        <title>GE - {% block nosaukums %} Index lapa {% endblock %}</title>
     </head>
     <body>
-        <h1>Start</h1>
-        <p1>Hello</p1>
-    </body>
+        <a href="/">Start</a>
+        <a href="/text">text</a>
+
     
-    </html>
+        <h1>Gustava Erzama majaslapa</h1>
+        {% block saturs %}
+        <p1>Hello</p1>
+        {% endblock %}
+        
+    <h2>HTML Image</h2>
+        <img src="https://edgecast-img.yahoo.net/mysterio/api/25127383E7119C9DA24A0425F28639E227CA4D861BC0CDE46CF5615C7D8B97A2/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD20AUC341A021001.jpg" alt="audi" width="400" height="333">
+        
+    </body>
+
+</html>
